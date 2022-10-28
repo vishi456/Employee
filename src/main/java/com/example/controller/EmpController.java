@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class EmpController {
     @GetMapping("/")
     public String home(){
-        return "index";
+        return "indexpage";
     }
 }
